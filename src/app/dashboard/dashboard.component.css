@@ -1,0 +1,7 @@
+
+.p-card{
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+    border: 1px solid;
+}

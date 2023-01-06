@@ -1,0 +1,9 @@
+.text{
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;
+}
+.items a:hover{
+    color: green;
+    cursor: pointer;
+}
