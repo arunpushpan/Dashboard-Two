@@ -1,7 +1,9 @@
-
+.sideone{
+    width: 60%;
+}
 .p-card{
     display: flex;
-    width: 60%;
+    width: 100%;
     justify-content: space-evenly;
     border: 1px solid;
 }

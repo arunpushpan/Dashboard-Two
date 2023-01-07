@@ -1,16 +1,29 @@
-.p-bar{
-    width: 28%;
+.child{
+    width: 48%;
 }
-h5{
+h5,p{
+
     padding: 0;
+    margin: 0;
+}
+span{
+    font-size: 14px;
 }
 
 table {
+    height: 200px;
     border:none;
     border-collapse: collapse;
 }
+td {
+    /* padding-top: .5em; */
+    padding-bottom: .5em;
+    padding-right: .5em;
+}
+
 
 table td {
+    font-size: 14px;
     border-left: 1px solid #000;
     border-right: 1px solid #000;
 }
@@ -21,4 +34,9 @@ table td:first-child {
 
 table td:last-child {
     border-right: none;
+}
+.main{
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly
 }

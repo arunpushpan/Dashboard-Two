@@ -25,6 +25,7 @@ import { WidgetGaugeComponent } from './widget-gauge/widget-gauge.component';
 import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -52,7 +53,7 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
     MatTableModule,
     MatBadgeModule,
     HighchartsChartModule,
-    MatProgressBarModule
+    MatProgressBarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
