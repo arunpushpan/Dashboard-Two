@@ -7,3 +7,9 @@
     justify-content: space-evenly;
     border: 1px solid;
 }
+.sidetwo{
+    width: 40%;
+}
+.dashboard{
+    display: flex;
+}

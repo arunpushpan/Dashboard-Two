@@ -24,6 +24,7 @@ import { WidgetPieTwoComponent } from './widget-pie-two/widget-pie-two.component
 import { WidgetGaugeComponent } from './widget-gauge/widget-gauge.component';
 import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
+import { WidgetRightComponent } from './widget-right/widget-right.component';
 
 
 @NgModule({
@@ -36,7 +37,8 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
     DashboardComponent,
     WidgetPieTwoComponent,
     WidgetGaugeComponent,
-    ProgressBarComponent
+    ProgressBarComponent,
+    WidgetRightComponent
   ],
   imports: [
     BrowserModule,

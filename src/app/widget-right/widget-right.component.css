@@ -1,0 +1,13 @@
+.item{
+    border-radius: 35%;
+}
+table{
+    margin-left: 20px;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+  }
+  .mat-divider{
+    margin-left: 20%;
+    margin-right: 20%;
+  }
