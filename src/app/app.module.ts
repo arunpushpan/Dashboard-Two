@@ -25,6 +25,8 @@ import { WidgetGaugeComponent } from './widget-gauge/widget-gauge.component';
 import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import { WidgetRightComponent } from './widget-right/widget-right.component';
+import { EulerDiagramComponent } from './euler-diagram/euler-diagram.component';
+
 
 
 @NgModule({
@@ -38,7 +40,8 @@ import { WidgetRightComponent } from './widget-right/widget-right.component';
     WidgetPieTwoComponent,
     WidgetGaugeComponent,
     ProgressBarComponent,
-    WidgetRightComponent
+    WidgetRightComponent,
+    EulerDiagramComponent
   ],
   imports: [
     BrowserModule,

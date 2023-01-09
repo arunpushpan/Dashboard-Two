@@ -19,14 +19,26 @@ constructor(){
     // padding: [5, 5, 5, 5],
         type: 'spline'
     },
-    title: {
-        text: ''
+    title:{
+        text:'Lorem Ipsum',
+        style: {
+            // fontWeight: 'bold',
+            color: 'gray',
+            fontSize:15
+        }
     },
-    subtitle: {
-        text: 'Lorem Ipsum'
-    },
+    // subtitle: {
+    //     text: 'Lorem Ipsum'
+    // },
     credits:{
 enabled:false
+    },
+    legend: {
+        symbolPadding: 0,
+        symbolWidth: 0,
+        symbolHeight: 0,
+        squareSymbol: false,
+        enabled: false
     },
    
     xAxis: {
@@ -52,18 +64,19 @@ enabled:false
         spline: {
             marker: {
                 radius: 6,
-                lineColor: '#666666',
+                lineColor: '#FF0000',
                 lineWidth: 1,
             }
         }
     },
     series: [{
         name:'',
-        // name: '',
-        // marker: {
-        //     symbol: 'diamond',
+        
+        marker: {
+            symbol: 'diamond',
+            fillColor: "#FFA500"
            
-        // },
+        },
         data: [5.2, 5.7, 8.7, 13.9, 18.2, 21.4, 25.0, {
             y: 26.4,
           

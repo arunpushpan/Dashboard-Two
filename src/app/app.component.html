@@ -1,12 +1,12 @@
 <mat-drawer-container class="example-container">
-  <mat-drawer mode="side" opened>
+  <mat-drawer  mode="side" [opened]="sidebar">
     <!-- side-nav -->
-    <app-side-nav></app-side-nav>
+    <app-side-nav ></app-side-nav>
   </mat-drawer>
   <mat-drawer-content>
     <!-- header -->
     <app-header></app-header>
     <!-- dashboard -->
-    <app-dashboard></app-dashboard>
+    <app-dashboard (isSideBarToggle)="isSideBarToggle()"></app-dashboard>
   </mat-drawer-content>
 </mat-drawer-container>

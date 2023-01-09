@@ -13,59 +13,76 @@ constructor(){
   this.chartOptions={
 
     chart: {
-      type: 'pie',
-      options3d: {
-          enabled: true,
-          alpha: 45,
-          beta: 0
-      }
-  },
- 
-  title: {
-      text: ''
-  },
-  subtitle: {
-      text: 'Lorem Ipsum'
-  },
-  accessibility: {
-      point: {
-          valueSuffix: '%'
-      }
-  },
-  tooltip: {
-      pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
-  },
-  plotOptions: {
-      pie: {
-          allowPointSelect: true,
-          cursor: 'pointer',
-          depth: 35,
-          dataLabels: {
-              enabled: true,
-              format: '{point.name}'
-          }
-      }
-  },
-  series: [{
-      type: 'pie',
-      name: '',
-      data: [
-          ['Samsung', 23],
-          ['Apple', 18],
-          {
-              name: 'xiaomi',
-              y: 12,
-              sliced: true,
-              selected: false
-          },
-          ['Oppo*', 9],
-          ['Vivo', 8],
-          ['Others', 30]
-      ]
-  }],
-  credits: {
-    enabled: false
-  }
+        plotBackgroundColor: null,
+        plotBorderWidth: 0,
+        plotShadow: false
+    },
+    title:{
+        text:'Lorem Ipsum',
+        style: {
+            // fontWeight: 'bold',
+            color: 'gray',
+            fontSize:15
+        }
+    },
+    subtitle: {
+        text: '65%',
+        align: 'center',
+        verticalAlign: 'middle',
+        y: 40,
+        style: {
+            fontWeight: 'bold',
+            color: 'black',
+            fontSize:18
+        }
+    },
+    credits:{
+        enabled:false
+    },
+    tooltip: {
+        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+    },
+    accessibility: {
+        point: {
+            valueSuffix: '%'
+        }
+    },
+    plotOptions: {
+        pie: {
+            dataLabels: {
+                enabled: true,
+                distance: -50,
+                style: {
+                    fontWeight: 'bold',
+                    color: 'white'
+                }
+            },
+            startAngle: -180,
+            endAngle: 180,
+            center: ['50%', '50%'],
+            size: '110%'
+        }
+    },
+    series: [{
+        type: 'pie',
+        name: '',
+        innerSize: '50%',
+        color:'green',
+        data: [
+            ['', 3.05],
+            // ['', 11.97],
+            // ['', 5.52],
+            // ['Safari', 2.98],
+            // ['IE', 1.90],
+            {
+                name: 'Other',
+                y: 3.77,
+                dataLabels: {
+                    enabled: false
+                }
+            }
+        ]
+    }]
 }
 
     

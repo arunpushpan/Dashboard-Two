@@ -19,12 +19,17 @@ constructor(){
           scrollPositionX: 1
       },
       title: {
-        text: ''
+        text: 'Lorem Ipsum'
     },
-    // legend: {
-    //     enabled: false
-    // }
+   
   },
+  legend: {
+    symbolPadding: 0,
+    symbolWidth: 0,
+    symbolHeight: 0,
+    squareSymbol: false,
+    enabled: false
+},
  
   xAxis: {
       type: 'datetime',
@@ -39,7 +44,7 @@ constructor(){
         
         enabled: true
     }, title:{
-        text:''},
+        text:null},
       minorGridLineWidth: 0,
       gridLineWidth: 0,
       alternateGridColor: null,
@@ -50,7 +55,7 @@ constructor(){
           label: {
                text: '',
               style: {
-                  color: '#FFA500'
+                  color: '#e02609'
               }
           }
       }, { // Light breeze
@@ -76,6 +81,8 @@ constructor(){
       }, { // Moderate breeze
           from: 5.5,
           to: 8,
+          fillColor: "#FFA500",
+
           color: 'rgba(0, 0, 0, 0)',
           label: {
               text: '',
@@ -100,7 +107,7 @@ constructor(){
           label: {
            //   text: 'Strong breeze',
               style: {
-                  color: '#606060'
+                  color: '#e02609'
               }
           }
       }, { // High wind
@@ -110,7 +117,7 @@ constructor(){
           label: {
             //  text: 'High wind',
               style: {
-                  color: '#606060'
+                  color: '#e02609'
               }
           }
       }]
@@ -121,6 +128,7 @@ constructor(){
   plotOptions: {
       spline: {
           lineWidth: 4,
+          color:'#e02609',
           states: {
               hover: {
                   lineWidth: 5

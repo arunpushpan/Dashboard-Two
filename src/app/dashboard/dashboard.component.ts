@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-dashboard',
@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent {
+
+  @Output()  isSideBarToggle=new EventEmitter()
+
+  sideBarToggle(){
+    this.isSideBarToggle.emit()
+    setTimeout(()=>{
+      window.dispatchEvent(
+        new Event('resize')
+      )
+    },200);
+  }
+
 
 }

@@ -16,12 +16,17 @@ constructor(){
     chart: {
       type: 'column'
   },
-  title: {
-    text: null
+  title:{
+    text:'Lorem Ipsum',
+    style: {
+        // fontWeight: 'bold',
+        color: 'gray',
+        fontSize:15
+    }
 },
-  subtitle: {
-      text: 'Lorem Ipsum'
-  },
+//   subtitle: {
+//       text: 'Lorem Ipsum'
+//   },
   credits:{
     enabled:false
   },

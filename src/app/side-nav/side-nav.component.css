@@ -1,9 +1,25 @@
 .text{
-    font-size: 30px;
+    font-size: 28px;
     font-weight: bolder;
-    font-style: italic;
 }
-.items a:hover{
-    color: green;
-    cursor: pointer;
+.menubtn{
+    display: flex;
+}
+
+.side-profile{
+    margin-top: 0;
+    background-color: rgb(65, 63, 63);
+    padding-top: 0;
+}
+i{
+    color: rgb(146, 131, 131);
+}
+.iname{
+    color:white
+}
+.iname:hover{
+    color:green
+}
+.badge{
+    border-radius: 50%;
 }

@@ -4,12 +4,31 @@
 .p-card{
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
-    border: 1px solid;
+    /* border: 1px solid; */
+    justify-content: space-between;
+}
+.sideone{
+    width: 58%;
 }
 .sidetwo{
     width: 40%;
 }
 .dashboard{
     display: flex;
+    margin-left: 0;
+}
+.c-card{
+    width: 35%;
+   
+}
+.app-euler-diagram{
+    margin:0
+}
+.toggle{
+    display: flex;
+}
+.tbtn{
+    /* margin-left: 0; */
+    margin-top: 25%;
+    position:-webkit-sticky;   
 }
