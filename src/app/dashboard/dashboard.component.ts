@@ -16,6 +16,7 @@ export class DashboardComponent {
         new Event('resize')
       )
     },200);
+
   }
 
 

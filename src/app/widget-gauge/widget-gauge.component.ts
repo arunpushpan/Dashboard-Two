@@ -77,6 +77,7 @@ constructor(){
             {
                 name: 'Other',
                 y: 3.77,
+                color: 'green',
                 dataLabels: {
                     enabled: false
                 }

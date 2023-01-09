@@ -18,10 +18,11 @@ constructor(){
           minWidth: 600,
           scrollPositionX: 1
       },
-      title: {
-        text: 'Lorem Ipsum'
-    },
-   
+      title : {
+        style : {
+          display : 'none'
+        }
+      }
   },
   legend: {
     symbolPadding: 0,
@@ -97,7 +98,7 @@ constructor(){
           label: {
               // text: 'Fresh breeze',
               style: {
-                  color: '#FFA500'
+                  color: ''
               }
           }
       }, { // Strong breeze
@@ -128,6 +129,8 @@ constructor(){
   plotOptions: {
       spline: {
           lineWidth: 4,
+          from:0,
+          to:6,
           color:'#e02609',
           states: {
               hover: {
