@@ -8,7 +8,9 @@ h5,p{
     margin: 0;
 }
 span{
-    font-size: 14px;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
 }
 
 table {
@@ -18,13 +20,13 @@ table {
 }
 td {
     /* padding-top: .5em; */
-    padding-bottom: .5em;
-    padding-right: .5em;
+    padding-bottom: .4em;
+    padding-right: .4em;
 }
 
 
 table td {
-    font-size: 14px;
+    font-size: 12px;
     border-left: 1px solid #000;
     border-right: 1px solid #000;
 }
@@ -46,5 +48,8 @@ table td:last-child {
 margin-left: 20%;
 margin-right: 20%;
 margin-bottom: 20px;
-margin-top: 20px;
+margin-top: 5px;
 }
+/* .cchild .progress-bar{
+    height: 10px;
+} */

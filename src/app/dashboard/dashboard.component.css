@@ -1,5 +1,5 @@
 .sideone{
-    width: 60%;
+    width: 65%;
 }
 .p-card{
     display: flex;
@@ -8,10 +8,11 @@
     justify-content: space-between;
 }
 .sideone{
-    width: 58%;
+    width: 60%;
+    margin-left: 10px;
 }
 .sidetwo{
-    width: 40%;
+    width: 35%;
 }
 .dashboard{
     display: flex;
@@ -29,6 +30,7 @@
 }
 .tbtn{
     /* margin-left: 0; */
-    margin-top: 25%;
+    margin-top: 23%;
     position:-webkit-sticky;   
 }
+
